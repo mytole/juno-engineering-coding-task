@@ -1,12 +1,14 @@
-import logo from '../logo.svg';
-import './App.css';
 import ImageCarousel from "./ImageCarousel";
+
+import "./App.css";
 
 function App() {
   return (
-      <div>
+    <div className="wrapper">
+      <div className="carousel-wrapper">
         <ImageCarousel />
       </div>
+    </div>
   );
 }
 
